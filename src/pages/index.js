@@ -23,7 +23,7 @@ export default function Home() {
 								for stylish living			
 							</h1>
 							<p class="text-white mx-auto">
-							"A room should never allow the eye to settle in one place. It should smile at you and create fantasy." - Juan Montoya
+							A room should never allow the eye to settle in one place. It should smile at you and create fantasy - Juan Montoya
 							</p>
 							<a href="#" class="primary-btn header-btn text-uppercase mt-10">Get Started</a>
 						</div>											

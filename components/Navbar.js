@@ -24,7 +24,7 @@ export default function Navbar() {
 			    <div class="container main-menu">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="/"><img src="/img/logo.png" alt="" title="" /></a>
+				        <Link href="/"><img src="/img/logo.png" alt="" title="" /></Link>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
