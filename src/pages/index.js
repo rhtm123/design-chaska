@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
+import Features from '../../components/Features';
+import CallToAction from '../../components/CallToAction';
 
 export default function Home() {
   return (
@@ -14,110 +12,166 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
-        </div>
+      
+      <section class="banner-area relative" id="home">
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="row fullscreen d-flex justify-content-center align-items-center">
+						<div class="banner-content col-lg-9 col-md-12 justify-content-center ">
+							<h1>
+								Precise concept design <br />
+								for stylish living			
+							</h1>
+							<p class="text-white mx-auto">
+							"A room should never allow the eye to settle in one place. It should smile at you and create fantasy." - Juan Montoya
+							</p>
+							<a href="#" class="primary-btn header-btn text-uppercase mt-10">Get Started</a>
+						</div>											
+					</div>
+				</div>
+			</section>
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
-        </div>
+      <section class="service-area section-gap" id="service">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-12 pb-50 header-text text-center">
+							<h1 class="mb-10">What we offer to our clients</h1>
+							<p>
+								Who are in extremely love with eco friendly system..
+							</p>
+						</div>
+					</div>						
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="single-service">
+								<a href="#"><h4>Interior</h4></a>
+								<p>
+									Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product.
+								</p>
+							</div>
+						</div>	
+						<div class="col-lg-4">
+							<div class="single-service">
+								<a href="#"><h4>Exterior</h4></a>
+								<p>
+									Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
+								</p>
+							</div>
+						</div>	
+						<div class="col-lg-4">
+							<div class="single-service">
+								<a href="#"><h4>Architecture</h4></a>
+								<p>
+									Can you imagine what we will be downloading in another twenty years? I mean who would have ever thought that you could record sound.
+								</p>
+							</div>
+						</div>
 
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
+						<div class="col-lg-4">
+							<div class="single-service">
+								<a href="#"><h4>Furniture</h4></a>
+								<p>
+									Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product.
+								</p>
+							</div>
+						</div>
 
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
+						<div class="col-lg-4">
+							<div class="single-service">
+								<a href="#"><h4>Decoration</h4></a>
+								<p>
+									Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product.
+								</p>
+							</div>
+						</div>
 
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
+						<div class="col-lg-4">
+							<div class="single-service">
+								<a href="#"><h4>Plans & Projects</h4></a>
+								<p>
+									Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product.
+								</p>
+							</div>
+						</div>																												
+					</div>
+				</div>	
+			</section>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+      {/* <section class="gallery-area pb-120">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="col-md-12 pb-40 header-text text-center">
+							<h1 class="pb-10">Our Recent Works may impress you</h1>
+							<p>
+								Who are in extremely love with eco friendly system.
+							</p>
+						</div>
+					</div>							
+					<div class="row">
+						<div class="col-lg-8">
+							<div class="single-gallery">
+								<div class="content">
+								    <a href="#" target="_blank">
+								      <div class="content-overlay"></div>
+								  		 <img class="content-image img-fluid d-block mx-auto" src="/img/g1.jpg" alt="" />
+								      <div class="content-details fadeIn-bottom">
+								        <h3 class="content-title mx-auto">Lavendar ambient interior</h3>
+								        <a href="project-details.html" class="primary-btn text-uppercase mt-20">More Details</a>
+								      </div>
+								    </a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-gallery">
+								<div class="content">
+								    <a href="#" target="_blank">
+								      <div class="content-overlay"></div>
+								  		 <img class="content-image img-fluid d-block mx-auto" src="/img/g2.jpg" alt="" />
+								      <div class="content-details fadeIn-bottom">
+								        <h3 class="content-title mx-auto">Ambient interior</h3>
+								        <a href="project-details.html" class="primary-btn text-uppercase mt-20">More Details</a>
+								      </div>
+								    </a>
+								</div>
+							</div>
+						</div>	
+						<div class="col-lg-4">
+							<div class="single-gallery">
+								<div class="content">
+								    <a href="#" target="_blank">
+								      <div class="content-overlay"></div>
+								  		 <img class="content-image img-fluid d-block mx-auto" src="/img/g3.jpg" alt="" />
+								      <div class="content-details fadeIn-bottom">
+								        <h3 class="content-title mx-auto">Ambient interior</h3>
+								        <a href="project-details.html" class="primary-btn text-uppercase mt-20">More Details</a>
+								      </div>
+								    </a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8">
+							<div class="single-gallery">
+								<div class="content">
+								    <a href="#" target="_blank">
+								      <div class="content-overlay"></div>
+								  		 <img class="content-image img-fluid d-block mx-auto" src="/img/g4.jpg" alt="" />
+								      <div class="content-details fadeIn-bottom">
+								        <h3 class="content-title mx-auto">Lavendar ambient interior</h3>
+								        <a href="project-details.html" class="primary-btn text-uppercase mt-20">More Details</a>
+								      </div>
+								    </a>
+								</div>
+							</div>
+						</div>												
+					</div>
+				</div>	
+			</section> */}
+
+
+      <Features />
+
+			
     </>
   )
 }
