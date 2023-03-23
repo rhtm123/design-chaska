@@ -7,6 +7,9 @@ export default function Layout({ children }) {
     return (
       <>
       <Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
       </Head>
       <Navbar />
@@ -27,7 +30,7 @@ export default function Layout({ children }) {
 			<script src="/js/jquery.magnific-popup.min.js"></script>	
 			{/* <script src="/js/owl.carousel.min.js"></script>						 */}
 			<script src="/js/jquery.nice-select.min.js"></script>							
-			<script src="/js/mail-script.js"></script>	
+			{/* <script src="/js/mail-script.js"></script>	 */}
 			<script src="/js/main.js"></script>	
       </>
     )

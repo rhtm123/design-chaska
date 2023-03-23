@@ -1,19 +1,20 @@
+import Link from "next/link";
 
 function CallToAction() {
     return ( 
-        <section class="callto-action-area pt-120">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="callto-action-wrap col-lg-12 relative section-gap">
-							<div class="content">
+        <section className="callto-action-area pt-120">
+				<div className="container">
+					<div className="row justify-content-center">
+						<div className="callto-action-wrap col-lg-12 relative section-gap">
+							<div className="content">
 								<h1>
 									Looking for a <br />
 									quality and affordable interior design?
 								</h1>
-								<p class="mx-auto">
-									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace.
+								<p className="mx-auto">
+								Our team of experienced and creative designers will work with you to create a space that reflects your personality and meets your needs. 
 								</p>
-								<a href="#" class="primary-btn text-uppercase">Request quote now</a>			
+								<Link href="/contact" className="primary-btn text-uppercase">Request quote now</Link>			
 							</div>							
 						</div>
 					</div>

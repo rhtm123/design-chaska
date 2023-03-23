@@ -1,48 +1,52 @@
 
+import Link from "next/link";
 import CallToAction from "../../components/CallToAction";
 import Features from "../../components/Features";
+import Services from "../../components/Services";
 
 function AboutPage() {
     return (
         <>
-        <section class="banner-area relative" id="home">	
-				<div class="overlay overlay-bg"></div>
-				<div class="container">				
-					<div class="row d-flex align-items-center justify-content-center">
-						<div class="about-content col-lg-12">
-							<h1 class="text-white">
+        <section className="banner-area relative" id="home">	
+				<div className="overlay overlay-bg"></div>
+				<div className="container">				
+					<div className="row d-flex align-items-center justify-content-center">
+						<div className="about-content col-lg-12">
+							<h1 className="text-white">
 								About Us				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> About Us</a></p>
 						</div>	
 					</div>
 				</div>
 			</section>
 
-            <section class="about-video-area section-gap">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-6 about-video-left">
-							<h6 class="text-uppercase">Brand new app to blow your mind</h6>
+            <section className="about-video-area section-gap">
+				<div className="container">
+					<div className="row align-items-center">
+						<div className="col-lg-6 about-video-left">
+							<h6 className="text-uppercase">Interior design is a business of trust</h6>
 							<h1>
-								We’ve made a life <br />
-								that will change you 
+							Customized, Best Quality & Afforadable
+							Interior Designs 
 							</h1>
+							
 							<p>
-								<span>We are here to listen from you deliver exellence</span>
+							We are a team of passionate interior designers who believe that every space deserves to be beautiful, functional and comfortable. We offer a range of services in interior design, from consultation and planning to execution and installation. 
 							</p>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+							Whether you need to renovate your home, office or commercial space, we can help you transform your vision into reality. Contact us today and let us create your dream space.
+
 							</p>
-							<a class="primary-btn mt-30" href="#">Get Started Now</a>
+							<Link className="primary-btn mt-30" href="/contact">Get Started Now</Link>
 						</div>
-						<div class="col-lg-6 about-video-right justify-content-center align-items-center d-flex relative">
-							<div class="overlay overlay-bg"></div>
-							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid mx-auto" src="/img/play-btn.png" alt="" /></a>
+						<div className="col-lg-6 justify-content-center align-items-center d-flex relative">
+							<img className="img-fluid mx-auto" src="/img/banner-bg4.jpg" alt="" />
 						</div>
 					</div>
 				</div>	
 			</section>
+
+			<Services />
 
             <Features />
         </>
