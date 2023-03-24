@@ -1,7 +1,7 @@
 function Author() {
     return ( 
         <div className="single-sidebar-widget user-info-widget">
-									<img src="/img/blog/user-info.png" alt="" />
+									<img width={"160px"} style={{borderRadius:"50%"}} src="/img/user_rohit.png" alt="" />
 									<a href="#"><h4>Rohit Maurya</h4></a>
 									<p>
 										Interior Designing Enthusiast
@@ -13,7 +13,7 @@ function Author() {
 										<li><a href="#"><i className="fa fa-behance"></i></a></li>
 									</ul> */}
 									<p>
-										Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.
+									I enjoy creating beautiful and functional spaces that reflect my personality and style. I like to experiment with different colors, textures, patterns and materials.
 									</p>
 								</div>
      );

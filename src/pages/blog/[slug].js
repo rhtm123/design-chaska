@@ -1,9 +1,14 @@
 import Author from "../../../components/Author";
+import Error from "../../../components/Error";
 
 
 function BlogPage({data, error}) {
 
-
+	if (error) {
+		return(
+		<Error />
+		)
+	}
 
 
     return ( <>
@@ -32,8 +37,8 @@ function BlogPage({data, error}) {
 								</div>
 								
 								<div class="col-lg-12">
-								<br />
-								<h4>{data.sub_header}</h4>
+								{/* <br />
+								<h4>{data.sub_header}</h4> */}
 								<br />
 								<div dangerouslySetInnerHTML={{ __html: data.detail }}></div>
 

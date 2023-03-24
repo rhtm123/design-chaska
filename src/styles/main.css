@@ -644,7 +644,7 @@ th {
         margin-top: 30px;
     }
 }
-b,
+
 sup,
 sub,
 u,
@@ -1616,6 +1616,7 @@ h6 {
 .header-top ul li {
     display: inline-block;
     margin-left: 15px;
+    margin-top: 6px;
 }
 .header-top .header-top-right {
     text-align: right;
@@ -1806,7 +1807,7 @@ h6 {
     position: fixed;
     right: 15px;
     z-index: 999;
-    top: 18px;
+    top: 24px;
     border: 0;
     background: none;
     font-size: 24px;
@@ -2224,7 +2225,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .feature-area .single-feature:hover {
     background-color: #04091e;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .feature-area .single-feature:hover h4,
 .feature-area .single-feature:hover .lnr {
@@ -2676,6 +2677,17 @@ a:hover {
     border-color: #C09F80;
     color: #C09F80;
 }
+
+.error-area .primary-btn {
+    border-radius: 0;
+    border: 1px solid transparent;
+}
+.error-area .primary-btn:hover {
+    background: transparent;
+    border-color: #C09F80;
+    color: #C09F80;
+}
+
 .about-video-right {
     background: url(/img/video-bg.jpg) no-repeat center;
     background-size: cover;
@@ -3482,4 +3494,50 @@ a:hover {
     background: transparent;
     border-color: #C09F80 !important;
     color: #C09F80 !important;
+}
+
+
+.cls-1{fill:none;stroke:#fafafa;stroke-linecap:round;stroke-linejoin:round;}
+
+
+
+svg:hover .cls-1 {
+    /* fill:#C09F80; */
+    stroke: #C09F80;
+    /* padding:8px; */
+}
+
+
+/* linear icons */
+
+.lnr {
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.lnr-menu {
+    background: url('/svg/nav/ham.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.lnr-cross {
+    background: url('/svg/nav/cross.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.error-area {
+    background: #f6f4f3;
 }
