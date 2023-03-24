@@ -2004,7 +2004,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 767.98px) {
     .banner-area {
-        height: 700px !important;
+        
+    background: url(/img/banner-bg5_.jpg);
+    background-size: cover;
+        /* height: 700px !important; */
+    }
+
+    .fullscreen {
+        /* height: 100vh; */
+    }
+    
+    .fitscreen {
+        /* height: 86vh; */
     }
 }
 .banner-area .primary-btn {
