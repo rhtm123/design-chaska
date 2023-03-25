@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Author from "../../components/Author";
+import Head from "next/head";
 
 function BlogsPage() {
 	const [blogs, setBlogs] = React.useState([]);
@@ -23,6 +24,12 @@ function BlogsPage() {
       },[]);
 
     return ( <>
+
+	<Head>
+        <title>Decorate Ghar - Blogs</title>
+        <meta name="description" content="Read blogs on Theory of Interior Designs & latest trend in Interior Designs" />
+      </Head>
+
     
     <section className="banner-area relative blog-home-banner" id="home">	
 				<div className="overlay overlay-bg"></div>
@@ -104,25 +111,13 @@ function BlogsPage() {
             <section className="post-content-area">
 				<div className="container">
 					<div className="row">
+						{/* <div className="col-lg-1"></div> */}
 						<div className="col-lg-8 posts-list">
 
 							{blogs.map((blog, index)=>
-								<div key={index} className="single-post row">
-								<div className="col-lg-3  col-md-3 meta-details">
-									{/* <ul className="tags">
-										<li><a href="#">Food,</a></li>
-										<li><a href="#">Technology,</a></li>
-										<li><a href="#">Politics,</a></li>
-										<li><a href="#">Lifestyle</a></li>
-									</ul> */}
-									<div className="user-details row">
-										<p className="user-name col-lg-12 col-md-12 col-6"><Link href={"/blog/"+blog.slug}>{blog.author?.firstname} {blog.author?.lastname}</Link> <span className="lnr lnr-user"></span></p>
-										<p className="date col-lg-12 col-md-12 col-6"><Link href={"/blog/"+blog.slug}>{new Date(blog.updated).toLocaleDateString()}</Link> <span className="lnr lnr-calendar-full"></span></p>
-										<p className="view col-lg-12 col-md-12 col-6"><Link href={"/blog/"+blog.slug}>{blog.read_time_minutes} Minutes Read</Link> <span className="lnr lnr-eye"></span></p>
-										{/* <p className="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span className="lnr lnr-bubble"></span></p>						 */}
-									</div>
-								</div>
-								<div className="col-lg-9 col-md-9 ">
+								<div key={index} className="single-post">
+								
+								<div className="">
 									<div className="feature-img">
 										<img className="img-fluid" src={blog.feature_img} alt="" />
 									</div>
@@ -132,6 +127,7 @@ function BlogsPage() {
 									</p>
 									<Link href={"/blog/"+blog.slug} className="primary-btn">View More</Link>
 								</div>
+								<br />
 							</div>
 							)}
 							
@@ -301,6 +297,8 @@ function BlogsPage() {
 								</div>								 */}
 							</div>
 						</div>
+						{/* <div className="col-lg-1"></div> */}
+
 					</div>
 				</div>	
 			</section>  

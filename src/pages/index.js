@@ -9,9 +9,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Decorate Ghar - Interior Designs, Exterior Designs</title>
-        <meta name="description" content="Decorate your home. Interior Designs, Exterior Designs, Architecture Designs, Furniture Designs" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Decorate Ghar | Home</title>
+        <meta name="description" content="Decorate your home. Interior Designs, Exterior Designs, Architecture Designs, Furniture Designs. Modular Kitchen, Wardrobe and Storage, False Ceiling, Furniture" />
       </Head>
 
       <section className="banner-area relative" id="home">

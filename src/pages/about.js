@@ -1,12 +1,19 @@
 
 import Link from "next/link";
-import CallToAction from "../../components/CallToAction";
 import Features from "../../components/Features";
 import Services from "../../components/Services";
+import Head from "next/head";
+
 
 function AboutPage() {
     return (
         <>
+	  <Head>
+        <title>Decorate Ghar | About </title>
+        <meta name="description" content="We are a team of passionate interior designers who love to create beautiful and functional spaces for our clients." />
+      </Head>
+
+
         <section className="banner-area relative" id="home">	
 				<div className="overlay overlay-bg"></div>
 				<div className="container">				
@@ -38,6 +45,10 @@ function AboutPage() {
 
 							</p>
 							<Link className="primary-btn mt-30" href="/contact">Get Started Now</Link>
+
+							<br />
+							<br />
+							<br />
 						</div>
 						<div className="col-lg-6 justify-content-center align-items-center d-flex relative">
 							<img className="img-fluid mx-auto" src="/img/banner-bg4.jpg" alt="" />

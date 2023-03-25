@@ -1,9 +1,15 @@
 import Link from "next/link";
+import Head from "next/head";
 
 function ProjectsPage() {
     return ( 
 
         <>
+	  <Head>
+        <title>Decorate Ghar | Projects </title>
+        <meta name="description" content="We have created 100+ Projects in Mira Road, Naigaon & Vasai Mumbai" />
+      </Head>
+
         <section class="banner-area relative" id="home">	
 				<div class="overlay overlay-bg"></div>
 				<div class="container">				
