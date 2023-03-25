@@ -11,19 +11,23 @@ function ContactPage() {
 
     const [msgSent, setMsgSet] = React.useState(false);
     const [error, setError] = React.useState(false);
+	const [requesting, setRequesting] = React.useState(false);
 
 
 	const handleClick = (e) => {
 		e.preventDefault();
+		setRequesting(true);
         var url = 'https://codingchaska.up.railway.app/api/v1/auth/contact-us/';
 
         postData(url, {email: email, name: name, message:msg, subject:subject})
           .then(data => {
             setEmail("");setMsg("");setName("");setSubject("");
             setMsgSet(true);
+			setRequesting(false);
         }).catch(error => {
             setError(error);
             console.log(error);
+			setRequesting(false);
         })
     }
 
@@ -107,9 +111,12 @@ function ContactPage() {
 										{error.message && <p className='text-danger'>{error.message}</p>}
 
 									</div>
+									
 									<div className="col-lg-12">
 										<div className="alert-msg" style={{textAlign: "left"}}></div>
-										<button onClick={handleClick} className="genric-btn primary circle" style={{float: "right"}}>Send Message</button>											
+										{!requesting && <button onClick={handleClick} className="genric-btn primary circle" style={{float: "right"}}>Send Message</button>	}	
+
+										{requesting && <p>Sending..</p>}									
 									</div>
 								</div>
 							</form>	}
