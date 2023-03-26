@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
+  
   // webpack: (config, { dev, isServer }) => {
   //   // Replace React with Preact in production build
   //   if (!dev && !isServer) {

@@ -2,7 +2,7 @@ function Author() {
     return ( 
         <div className="single-sidebar-widget user-info-widget">
 									<img width={"160px"} style={{borderRadius:"50%"}} src="/img/user_rohit.png" alt="" />
-									<a href="#"><h4>Rohit Maurya</h4></a>
+									<h4>Rohit Maurya</h4>
 									<p>
 										Interior Designing Enthusiast
 									</p>

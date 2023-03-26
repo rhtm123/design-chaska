@@ -2,12 +2,12 @@ import Link from "next/link";
 function Error() {
     return ( 
         <>
-            <section class="banner-area relative" id="home">	
-				<div class="overlay overlay-bg"></div>
-				<div class="container">				
-					<div class="row d-flex align-items-center justify-content-center">
-						<div class="about-content col-lg-12">
-							<h1 class="text-white">
+            <section className="banner-area relative" id="home">	
+				<div className="overlay overlay-bg"></div>
+				<div className="container">				
+					<div className="row d-flex align-items-center justify-content-center">
+						<div className="about-content col-lg-12">
+							<h1 className="text-white">
 								Error 404 			
 							</h1>	
 						</div>	

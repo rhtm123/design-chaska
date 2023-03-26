@@ -2,6 +2,9 @@ import Link from "next/link";
 import React from "react";
 import Author from "../../components/Author";
 import Head from "next/head";
+import Image from "next/image";
+
+import LazyImage from "../../components/LazyImage";
 
 function BlogsPage() {
 	const [blogs, setBlogs] = React.useState([]);
@@ -119,7 +122,9 @@ function BlogsPage() {
 								
 								<div className="">
 									<div className="feature-img">
-										<img className="img-fluid" src={blog.feature_img} alt="" />
+
+										<LazyImage blurhash={"L6PZfRjD.AyE_3t7t7R**0o#DgR4"} src={blog.feature_img} alt={blog.header} />
+										
 									</div>
 									<Link className="posts-title" href={"/blog/"+blog.slug}><h3>{blog.header}</h3></Link>
 									<p className="excert">

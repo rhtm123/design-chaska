@@ -110,7 +110,7 @@ h6 {
     font-family: 'Space Grotesk', sans-serif;
     color: #222;
     line-height: 1.2em !important;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.5rem;
     margin-top: 0;
 }
 .h1,
@@ -3103,8 +3103,8 @@ a:hover {
 .widget-wrap .user-info-widget {
     text-align: center;
 }
-.widget-wrap .user-info-widget a h4 {
-    margin-top: 40px;
+.widget-wrap .user-info-widget h4 {
+    margin-top: 32px;
     margin-bottom: 5px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;

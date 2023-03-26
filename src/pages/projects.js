@@ -41,7 +41,7 @@ function ProjectsPage() {
 								  		 <img className="content-image img-fluid d-block mx-auto" src="img/g1.jpg" alt="" />
 								      <div className="content-details fadeIn-bottom">
 								        <h3 className="content-title mx-auto">Lavendar ambient interior</h3>
-								        <a href="project-details.html" className="primary-btn text-uppercase mt-20">More Details</a>
+								        <a href="#" className="primary-btn text-uppercase mt-20">More Details</a>
 								      </div>
 								</div>
 							</div>
@@ -53,7 +53,7 @@ function ProjectsPage() {
 								  		 <img className="content-image img-fluid d-block mx-auto" src="img/g2.jpg" alt="" />
 								      <div className="content-details fadeIn-bottom">
 								        <h3 className="content-title mx-auto">Ambient interior</h3>
-								        <a href="project-details.html" className="primary-btn text-uppercase mt-20">More Details</a>
+								        <a href="#" className="primary-btn text-uppercase mt-20">More Details</a>
 								      </div>
 								</div>
 							</div>
@@ -65,7 +65,7 @@ function ProjectsPage() {
 								  		 <img className="content-image img-fluid d-block mx-auto" src="img/g3.jpg" alt="" />
 								      <div className="content-details fadeIn-bottom">
 								        <h3 className="content-title mx-auto">Ambient interior</h3>
-								        <a href="project-details.html" className="primary-btn text-uppercase mt-20">More Details</a>
+								        <a href="#" className="primary-btn text-uppercase mt-20">More Details</a>
 								      </div>
 								</div>
 							</div>
@@ -77,7 +77,7 @@ function ProjectsPage() {
 								  		 <img className="content-image img-fluid d-block mx-auto" src="img/g4.jpg" alt="" />
 								      <div className="content-details fadeIn-bottom">
 								        <h3 className="content-title mx-auto">Lavendar ambient interior</h3>
-								        <a href="project-details.html" className="primary-btn text-uppercase mt-20">More Details</a>
+								        <a href="#" className="primary-btn text-uppercase mt-20">More Details</a>
 								      </div>
 								</div>
 							</div>

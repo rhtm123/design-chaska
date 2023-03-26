@@ -61,7 +61,7 @@ function ContactPage() {
 								</div>
 
 								<div className="contact-details">
-									<h5>+91 9518 9019 02</h5>
+									<h5><b>+91 9518 9019 02 </b></h5>
 									<p>Mon to Fri 9am to 6 pm</p>
 								</div>
 
@@ -87,7 +87,7 @@ function ContactPage() {
 									
 								</div>
 								<div className="contact-details">
-									<h5>contact@codingchaska.com</h5>
+									<h5>decorateghar@gmail.com</h5>
 									<p>Send us your query anytime!</p>
 								</div>
 							</div>														
