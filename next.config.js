@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ['res.cloudinary.com'],
   },
+
   
   // webpack: (config, { dev, isServer }) => {
   //   // Replace React with Preact in production build

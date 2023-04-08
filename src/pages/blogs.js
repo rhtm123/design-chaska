@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import Author from "../../components/Author";
 import Head from "next/head";
-import Image from "next/image";
 
 import LazyImage from "../../components/LazyImage";
 

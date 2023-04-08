@@ -15,6 +15,7 @@ export default function Footer() {
 								<p>
 								We are a team of passionate interior designers who love to create beautiful and functional spaces for our clients. <br />
 								We listen to your needs, preferences, and budget, and offer you personalized solutions that suit your lifestyle and personality. 
+								Decorate Ghar provides its services in Naigaon, Mira Road, Bhayandar, & Vasai. 
 								</p>
 
 								<p>Let us be social</p>
