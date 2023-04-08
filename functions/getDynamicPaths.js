@@ -10,12 +10,8 @@ async function dynamicPaths() {
     let blogs = data1.results; 
 
     let BASE_URL = "https://www.decorateghar.com";
-    const paths = blogs.map( blog => {
-  
-        return `${BASE_URL}/blog/${blog.slug}`
-  
-})
-
+    
+    const paths = blogs.map( blog => `${BASE_URL}/blog/${blog.slug}`)
     return paths
 }
 

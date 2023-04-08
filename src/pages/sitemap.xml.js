@@ -7,7 +7,9 @@ const Sitemap = () => {
 };
 
 export const getServerSideProps = async ({ res }) => {
-    const allPaths =[ ...staticPaths , ...dynamicPaths ];
+    let paths = await dynamicPaths();
+    // dynamicPaths().then(data=>console.log(data));
+    const allPaths =[ ...staticPaths, ...paths ];
 
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
