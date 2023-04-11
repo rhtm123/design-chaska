@@ -28,9 +28,9 @@ function BlogPage({data, error}) {
 
         {/* Facebook  */}
         <meta property="og:title"         content={data.header} />
-        <meta property="og:description"   content={data.detail.replace( /(<([^>]+)>)/ig, '')} />
+        <meta property="og:description"   content={data.sub_header.replace( /(<([^>]+)>)/ig, '')} />
         <meta property="og:image"         content={data.feature_img} />
-		
+
       </Head>
 
             <section class="banner-area relative" id="home">	
