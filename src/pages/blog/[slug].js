@@ -16,7 +16,21 @@ function BlogPage({data, error}) {
 
 	<Head>
         <title>Decorate Ghar | {data.header}</title>
-        <meta name="description" content={data.sub_header} />
+
+		<meta name="description" content={data.sub_header.replace( /(<([^>]+)>)/ig, '')} />
+
+        <meta name="image" content={data.feature_img} />
+
+        {/* <!-- Schema.org for Google --> */}
+<meta itemProp="name" content={data.header} />
+<meta itemProp="description" content={data.sub_header.replace( /(<([^>]+)>)/ig, '')} />
+<meta itemProp="image" content={data.feature_img} />
+
+        {/* Facebook  */}
+        <meta property="og:title"         content={data.header} />
+        <meta property="og:description"   content={data.detail.replace( /(<([^>]+)>)/ig, '')} />
+        <meta property="og:image"         content={data.feature_img} />
+		
       </Head>
 
             <section class="banner-area relative" id="home">	
