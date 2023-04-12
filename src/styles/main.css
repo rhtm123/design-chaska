@@ -1641,6 +1641,7 @@ h6 {
 }
 .header-top .header-top-left {
     text-align: left;
+    font-size: 18px;
 }
 .header-top .header-top-left a {
     margin-right: 10px;
@@ -2334,6 +2335,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .callto-action-wrap h1 {
     color: #f4f4f4;
 }
+
+.callto-action-wrap h3 {
+    color: #f4f4f4;
+} 
+
 .callto-action-wrap p {
     max-width: 560px;
     margin: 20px 0;
@@ -2499,6 +2505,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     color:#f6f4f3;
 }
 
+.single-footer-widget h3 {
+    color:#f6f4f3;
+} 
 a:hover {
     color:#C09F80;
 }
@@ -2821,6 +2830,10 @@ a:hover {
     font-weight: 300;
     font-size: 16px;
     margin-bottom: 5px;
+}
+
+.single-contact-address a {
+    color:#000;
 }
 .contact-page-area .single-contact-address .lnr {
     font-size: 30px;

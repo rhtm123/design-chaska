@@ -23,7 +23,7 @@ export default function Home() {
 							<p className="text-white mx-auto">
 							A room should never allow the eye to settle in one place. It should smile at you and create fantasy - Juan Montoya
 							</p>
-							<Link href="/contact" className="primary-btn header-btn text-uppercase mt-10">Get Started</Link>
+							<a href="tel:+918329392466" className="primary-btn header-btn text-uppercase mt-10">Call- 8329 3924 66</a>
 						</div>											
 					</div>
 				</div>

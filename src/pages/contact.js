@@ -61,7 +61,12 @@ function ContactPage() {
 								</div>
 
 								<div className="contact-details">
-									<h5><b>+91 9518 9019 02 </b></h5>
+									<h4><b>
+										<a href="tel:+918329392466">Call- 8329 3924 66</a>
+										
+										</b>
+										
+									</h4>
 									<p>Mon to Fri 9am to 6 pm</p>
 								</div>
 
@@ -75,7 +80,7 @@ function ContactPage() {
 								
 
 								<div className="contact-details">
-									<h5>103/3, Jay Vijay Nagar Building</h5>
+									<h4>103/3, Jay Vijay Nagar Building</h4>
 									<p>
 										Opposite Seven Square School, Naigaon
 									</p>
@@ -87,7 +92,7 @@ function ContactPage() {
 									
 								</div>
 								<div className="contact-details">
-									<h5>decorateghar@gmail.com</h5>
+									<h4>decorateghar@gmail.com</h4>
 									<p>Send us your query anytime!</p>
 								</div>
 							</div>														

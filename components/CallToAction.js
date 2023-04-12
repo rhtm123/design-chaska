@@ -14,7 +14,10 @@ function CallToAction() {
 								<p className="mx-auto">
 								Our team of experienced and creative designers will work with you to create a space that reflects your personality and meets your needs. 
 								</p>
-								<Link href="/contact" className="primary-btn text-uppercase">Request quote now</Link>			
+								<Link href="/contact" className="primary-btn text-uppercase">Request quote now</Link>	
+								<br /> <br />
+								<a className="mx-auto" href="tel:+918329392466" ><h3>Call- 8329 3924 66</h3></a>			
+
 							</div>							
 						</div>
 					</div>

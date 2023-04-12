@@ -18,10 +18,15 @@ export default function Footer() {
 								Decorate Ghar provides its services in Naigaon, Mira Road, Bhayandar, & Vasai. 
 								</p>
 
+								<a href="tel:+918329392466" ><h3>Call- 8329 3924 66</h3></a>			
+
+
 								<p>Let us be social</p>
 								<div className="social-media-footer">
 								<SocialMedia />
 								</div>
+
+
 															
 							</div>
 						</div>
