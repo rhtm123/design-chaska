@@ -2,6 +2,8 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import CallToAction from "../components/CallToAction";
+import WhatsApp from "../components/WhatsApp";
+
 
 export default function Layout({ children }) {
     return (
@@ -14,6 +16,7 @@ export default function Layout({ children }) {
       <Navbar />
       <main>{children}</main>
 
+      <WhatsApp />
       <CallToAction />
       <Footer />
 

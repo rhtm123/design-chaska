@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
 import Features from '../../components/Features';
-import CallToAction from '../../components/CallToAction';
-import Link from 'next/link';
+// import CallToAction from '../../components/CallToAction';
+// import Link from 'next/link';
 import Services from '../../components/Services';
 
 export default function Home() {
