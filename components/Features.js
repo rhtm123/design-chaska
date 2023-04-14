@@ -18,7 +18,7 @@ function Features() {
 									<h4>Expert Technicians</h4>
 								</div>
 								<p>
-								Our technecians have extensive knowledge and skills of Architecture designing.They are able to perform complex tasks, troubleshoot problems, and provide solutions with efficiency and accuracy. Contact us for a free consultation.
+								Our technicians have extensive knowledge and skills of Architecture designing. They are able to perform complex tasks, troubleshoot problems, and provide solutions with efficiency and accuracy. Contact us for a free consultation.
 								</p>
 							</div>
 						</div>
