@@ -62,7 +62,7 @@ function ContactPage() {
 
 								<div className="contact-details">
 									<h4><b>
-										<a href="tel:+918329392466">Call- 8329 3924 66</a>
+										<a href="tel:+919324270778">Call- 9324 2707 78</a>
 										
 										</b>
 										

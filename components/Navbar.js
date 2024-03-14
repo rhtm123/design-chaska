@@ -8,7 +8,7 @@ export default function Navbar() {
 		  			<div className="container">
 				  		<div className="row" style={{alignItems:"center"}}>
 				  			<div className="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
-				  				<a href="tel:+918329392466">+91 8329 3924 66</a>
+				  				<a href="tel:+919324270778">+91 9324 2707 78</a>
 				  				<a href="mailto:decorateghar@gmail.com">decorateghar@gmail.com</a>					  
 				  			</div>
 				  			<div className="col-lg-6 col-sm-6 col-8 header-top-right no-padding">

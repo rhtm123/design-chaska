@@ -16,7 +16,7 @@ function CallToAction() {
 								</p>
 								<Link href="/contact" className="primary-btn text-uppercase">Request quote now</Link>	
 								<br /> <br />
-								<a className="mx-auto" href="tel:+918329392466" ><h3>Call- 8329 3924 66</h3></a>			
+								<a className="mx-auto" href="tel:+919324270778" ><h3>Call- 9324 2707 78</h3></a>			
 
 							</div>							
 						</div>
