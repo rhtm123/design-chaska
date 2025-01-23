@@ -11,7 +11,7 @@ function BlogsPage() {
 
 	React.useEffect(() => {
         
-		let url =  `https://codingchaska.up.railway.app/api/v1/short-tutorial/short-tuts/?author=&tags=30`;
+		let url =  `https://thelearningsetu.com/api/v1/short-tutorial/short-tuts/?author=&tags=30`;
         // console.log(data);
         fetch(url)
         .then(async (response) => {
